@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra clone</title>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<style>
+*{
+    padding: 0;
+    margin: 0;
+    font-family:assistent,-apple-system, BlinkMacSystemFont,Segoe UI, Roboto,Helvetica, Arial,sans-serif;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #b6b1b1;
+}
+.Myntra_home{
+    height: 36px;
+}
+.logo_container{
+    margin-left: 4%;
+}
+.action_bar{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 500px;
+    justify-content:space-between;
+}
+.nav_bar a {
+font-size: 14px;
+letter-spacing: .3px;
+color: #282c3f;
+font-weight: 700;
+text-transform: uppercase;
+text-decoration: none;
+padding: 30px 0;
+}
+.nav_bar a:hover{
+    border-bottom:4px solid #737477;
+}
+
+.nav_bar a sup{
+    color: #ff3f6c;
+    font-size: 10px;
+}
+
+.search_bar{
+ height: 40px;
+ min-width: 200px;
+ width: 30%;
+ display: flex;
+ align-items: center;
+}
+.serach_icon{
+  box-sizing:content-box;
+  height: 20px;
+  padding: 10px;
+  background-color: #f5f5f6;
+  color: #282c3f;
+  border-radius: 4px 0 0 4px;
+}
+
+.search_input{
+  color: #696e79;
+ background-color: #f5f5f6;
+ flex-grow: 1;
+ height: 40px;
+ border: 0;
+ border-radius: 0 4px 4px 0;
+}
+.action_bar{
+    display: flex;
+    min-width: 100px;
+    justify-content: space-between;
+}
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.banner_container{
+ margin: 40px 0;
+}
+.banner_image{
+    width: 100%;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+
+}
+.category_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sale_item{
+    width:250px;
+}
+.footer_container{
+    padding: 30px 0px 40px 0px;
+    color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_colums{
+    display: flex;
+    flex-direction: column;
+}
+.footer_colums h3{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer_colums a{
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+</style>
+<body>
+    <header>
+        <div class="logo_container">
+            <a href="#"><img class="Myntra_home" src="images/myntra.logo.png" alt="myntra home"></a>
+        </div>
+        <nav class="nav_bar">
+            <a href="#">men</a>
+            <a href="#">women</a>
+            <a href="#">kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">studio <sup>new</sup></a>
+        </nav>
+        <div class="search_bar">
+    <span class="material-symbols-outlined serach_icon">search</span>
+     <input class="search_input" placeholder="search for product,brand and more ">
+</div>
+        <div class="action_bar">
+            <div class="action_container">
+                <i class='bx  bxs-user-circle'action_icon  ></i> 
+                <span class="action_name">profile</span>
+            </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="banner_container">
+            <img class="banner_image" src="images/banner5.jpg" alt="main banner">
+        </div>
+        <div class="category_heading">RISING STARS</div>
+        <div class="category_item">
+            <a href="#"><img class="sale_item"src="images/51.jpeg"></a>
+            <a href="#"><img class="sale_item"src="images/52.jpeg"></a>
+            <a href="#"><img class="sale_item"src="images/53.jpeg"></a>
+            <a href="#"> <img class="sale_item"src="images/54.jpeg"></a>
+            <a href="#"><img class="sale_item"src="images/16.jpeg" ></a>
+            <a href="#"><img class="sale_item" src="images/third.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/seven.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/eight.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/nine.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/ten.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/nine.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/12.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/six.jpeg"></a>
+            <a href="#"><img class="sale_item" src="images/first.jpeg"></a>
+        </div>
+          <div class="category_heading"> shopping for shoes's</div>
+            <div class="category_item">
+                <a href="#"><img class="sale_item" src="images/01.jpeg"></a>
+                   <a href="#"><img class="sale_item" src="images/02.jpeg"></a>
+                   <a href="#"><img class="sale_item" src="images/03.jpeg"></a>
+                   <a href="#"><img class="sale_item" src="images/04.jpeg"></a>
+                   <a href="#"><img class="sale_item" src="images/05.jpeg"></a>
+                    <a href="#"><img class="sale_item" src="images/06.jpeg"></a>
+                    <a href="#"><img class="sale_item" src="images/07.jpeg"></a>
+                    <a href="#"><img class="sale_item" src="images/08.jpeg"></a>                                                              
+                 <a href="#"><img class="sale_item" src="images/09.jpeg"></a>  
+                     <a href="#"><img class="sale_item" src="images/11..jpeg"></a>
+                         <a href="#"><img class="sale_item" src="images/11..jpeg"></a>
+                     
+
+            </div>
+
+        <div class="category_heading"> shopping for women's dresses</div>
+            <div class="category_item">
+          <a href="#"><img class="sale_item" src="images/shopping/31.jpeg"></a>
+          <a href="#"><img class="sale_item"  src="images/shopping/32.jpeg"></a>
+          <a href="#"><img class="sale_item" src="images/shopping/33.jpeg"></a>
+          <a href="#"><img class="sale_item"  src="images/shopping/34.jpeg"></a>
+          <a href="#"><img class="sale_item"  src="images/shopping/35.jpeg"></a>
+           <a href="#"><img class="sale_item" src="images/shopping/36.jpeg"></a>
+            <a href="#"><img class="sale_item"  src="images/shopping/37.jpeg"></a>
+             <a href="#"><img class="sale_item" src="images/shopping/38.jpeg"></a>
+              <a href="#"><img class="sale_item" src="images/shopping/39.jpeg"></a>
+               <a href="#"><img class="sale_item" src="images/shopping/40.jpeg"></a>
+                <a href="#"><img class="sale_item" src="images/shopping/41.jpeg"></a>
+                 <a href="#"><img class="sale_item" src="images/shopping/42.jpeg"></a>
+                  <a href="#"><img class="sale_item" src="images/shopping/43.jpeg"></a>
+                   <a href="#"><img class="sale_item" src="images/shopping/34.jpeg"></a>
+                       <a href="#"><img class="sale_item" src="images/shopping/37.jpeg"></a>   
+         </div>
+    </main>
+    <footer>
+        <div class="footer_container"></div>
+            <div class="footer_colums">
+            <h3>ONLINE SHOPPING</h3>
+
+            <a href="#">men</a>
+            <a href="#">women</a>
+            <a href="#">kids</a>
+            <a href="#">Home & Living</a>
+            <a href="#">Beauty</a>
+            <a href="#">Gift card</a>
+            <a href="#">myntra insider</a>
+            </div>
+          
+    </footer>
+</body>
+</html>
